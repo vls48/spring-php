@@ -80,7 +80,7 @@ input#send{
 
 body{
     background-color: #D7D0C8;
-    background-image: url('images/general/upfeathers.png');
+    background-image: url('images/general/grid.jpg');
     color: #706F62;
     /*background-image: url('images/general/seigaiha.png');*/
     background-repeat: repeat;
@@ -206,7 +206,8 @@ NAV
 --------------------------------------------------------*/
 
 .row-nav{
-    background-color: #95A78D;
+    background-color: #388592;
+    border-top: 25px solid #044C51;
     text-align: center;
     position: fixed;
     bottom: -17px;
