@@ -211,14 +211,16 @@ NAV
 
 .row-nav{
     background-color: #388592;
-    border-top: 25px solid #044C51;
+    border-top: 20px solid #044C51;
     text-align: center;
     position: fixed;
-    bottom: -17px;
+    bottom: 0px;
     width: 100%;
     -webkit-box-shadow: 0px -1px 20px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px -1px 20px -5px rgba(0,0,0,0.75);
     box-shadow: 0px -1px 20px -5px rgba(0,0,0,0.75);
+    overflow: auto;
+    transition: all 1s;
 }
 
 nav ul{
@@ -228,7 +230,7 @@ nav ul{
 
 li{
     display: inline-block;
-    margin: 1.5rem 4rem;
+    margin: .3rem 4rem;
 }
 
 ul li a{
@@ -247,10 +249,6 @@ ul li a{
 /*--------------------------------------------------------
 GRID SYSTEM / FLEX BOX
 --------------------------------------------------------*/
-
-.row-nav{
-    overflow: auto;
-}
 
 .row-nav::after {
     content: "";
@@ -294,7 +292,7 @@ GRID SYSTEM / FLEX BOX
 }
 
 .child img{
-    padding: 0.625rem;
+    padding: .5rem;
 }
 
 .icon{
@@ -344,10 +342,11 @@ animoooooottionnnnnn
  INDEX
 -----*/
     .home-text{
-        background-color: rgba(215,208,200, .5);
+        background-color: rgba(4,76,81, .5);
         border-radius: 4px;
         width: 100%;
         padding: 1.5rem;
+        color: white;
 
     }
 
@@ -376,7 +375,8 @@ animoooooottionnnnnn
 
 @media (max-width: 1030px){
     li{
-        margin: 2rem 1rem;
+        margin: 1rem 1rem;
+        transition: all 1s;
     }
 
     ul{
@@ -533,6 +533,17 @@ animoooooottionnnnnn
         margin: auto;
     }
 
+    .full-length{
+        transition: all 1s;
+        height: 23rem;
+        width: 8rem;
+        position: fixed;
+        top: 0px;
+        border-radius: 25px;
+        background-color: #388592;
+        border-top: 25px solid #044C51;
+        text-align: center;
+    }
     
     .row-nav{
         width: 6rem;
@@ -540,7 +551,7 @@ animoooooottionnnnnn
         top: 0px;
         height: 6rem;
         border-radius: 25px;
-
+        
     }
 
 
